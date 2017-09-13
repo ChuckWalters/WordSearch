@@ -12,7 +12,9 @@ Core API's for Word Search game
 
 ### How do I get set up? ###
 
-* wordsearch <board, dictionary>
+* WordSearchAPI.exe words=Data/twl.txt board=Data/4x4.txt 
+* words=XXX arg is required.  Supplied the lastest scrabble valid word list from SourceForge
+* A randomized 6x6 board will generate if arg board=XXX is missing.
 
 
 ### Who do I talk to? ###

@@ -35,6 +35,7 @@ namespace WordSearchAPI
             {
                 Console.WriteLine("Error: must provide dictionary path as arg e.g.,  words=Data/twl.txt");
                 Console.ReadKey();
+                return;
             }
 
             int minWordLength = 3;
